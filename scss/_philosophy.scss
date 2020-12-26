@@ -1,0 +1,18 @@
+.philosophy {
+    position: relative;
+    padding: 120px 0;
+    min-height: 600px;
+    &__image {
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: -120px;
+    }
+    &__h {
+        font-weight: bold;
+        font-size: 55px;
+        line-height: 66px;
+        color: #181823;
+    }
+}

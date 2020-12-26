@@ -1,0 +1,58 @@
+.company {
+    padding: 120px 0;
+    background-color: #000;
+    &__label {
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 150%;
+        text-transform: uppercase;
+        color: #8491A0;
+    }
+    &__h {
+        font-weight: bold;
+        font-size: 55px;
+        line-height: 66px;
+        color: #FFFFFF;
+        margin-top: 8px;
+        margin-bottom: 40px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        margin-right: 72px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    &__item__number {
+        font-size: 117px;
+        line-height: 141px;
+        color: #8491A0;
+    }
+    &__item__name {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 150%;
+        color: #FFFFFF;
+        margin-bottom: 22px;
+    }
+    &__item__text {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        color: #8491A0;
+
+    }
+
+}
+.name-google {
+    color: #3CC74E;
+}
+.name-facebook {
+    color: #609BFF;
+}
+.name-dribble {
+    color: #E95D90;
+}

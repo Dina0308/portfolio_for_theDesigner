@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+}
+.container {
+    padding: 0 72px;
+    max-width: 1920px;
+    position: relative;
+}
+
+@import "promo";
+@import "company";
+@import "philosophy";
