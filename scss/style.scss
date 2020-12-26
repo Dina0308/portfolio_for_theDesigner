@@ -4,7 +4,7 @@
     padding: 0;
 }
 body {
-    font-family: sans-serif;
+    font-family: 'Sen', sans-serif;
 }
 .container {
     padding: 0 72px;
@@ -15,3 +15,4 @@ body {
 @import "promo";
 @import "company";
 @import "philosophy";
+@import "skills";
