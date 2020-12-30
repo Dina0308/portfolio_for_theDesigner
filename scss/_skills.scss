@@ -41,9 +41,10 @@
     }
     &__icons {
         display: flex;
+        overflow: auto;
         &-item {
             border: 1px solid #181823;
-            width: 340px;
+            min-width: 340px;
             height: 140px;
             display: flex;
             align-items: center;
