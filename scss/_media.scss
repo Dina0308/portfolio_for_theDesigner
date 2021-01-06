@@ -78,6 +78,9 @@
             }
         }
     }
+    .photo {
+        padding: 80px 0;
+    }
 }
 
 
@@ -249,6 +252,18 @@
         &__link {
             margin-bottom: 68px;
         }
+    }
+    .photo {
+        padding: 48px 0;
+        &__subtitle {
+            width: auto;
+        }
+    }
+    .tabs__caption li {
+        width: 41%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     
 }

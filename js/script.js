@@ -14,4 +14,15 @@ window.addEventListener('DOMContentLoaded', () => {
             menu.classList.toggle('menu_active');
         })
     })
+
+    /*tabs*/
+    $(function() {
+  
+        $('ul.tabs__caption').on('click', 'li:not(.tab-active)', function() {
+          $(this)
+            .addClass('tab-active').siblings().removeClass('tab-active')
+            .closest('div.tabs').find('div.tabs__content').removeClass('active').eq($(this).index()).addClass('active');
+        });
+        
+      });
 })

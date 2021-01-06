@@ -1,0 +1,52 @@
+.forms {
+    background-color: #000;
+    padding: 120px 0;
+    &__subtitle {
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 150%;
+        color: #8491A0;
+        margin-top: 24px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__column {
+        width: 46%;
+    }
+    label {
+        color: #fff;
+        display: block;
+        margin-bottom: 8px;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+    }
+    input {
+        background-color: #181823;
+        border: none;
+        height: 50px;
+        width: 100%;
+        margin-bottom: 40px;
+        color: #fff;
+    }
+    textarea {
+        background-color: #181823;
+        border: none;
+        width: 100%;
+        margin-bottom: 40px;
+        color: #fff;
+    }
+    button {
+        background: #5221E6;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 150%;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        padding: 24px 0;
+        width: 100%;
+        border: none;
+    }
+}
