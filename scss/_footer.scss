@@ -1,0 +1,51 @@
+footer {
+    padding: 80px 0;
+    background-color: #181823;
+}
+.footer {
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 46px;
+    }
+    &__column {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    &__menu {
+        list-style-type: none;
+        margin-right: 168px;
+        li {
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 150%;
+            color: #FFFFFF;
+            margin: 0 0 24px;
+
+        }
+    }
+    &__soc {
+        
+        margin-top: 32px;
+        span {
+            margin-right: 16px;
+            &:nth-child(1) {
+                color: #26A7DE;
+            }
+            &:nth-child(2) {
+                color: #E94B88;
+            }
+            &:nth-child(3) {
+                color: #26A7DE;
+            }
+        }
+    }
+    
+    &__politik {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        color: #8491A0;
+    }
+}
