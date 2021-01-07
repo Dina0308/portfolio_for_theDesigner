@@ -155,13 +155,15 @@
         </div>
     </section>
     <section class="instagram">
-        <div class="instagram__content">
+        <div class="container">
             <h2 class="instagram__h">Instagram</h2>
             <p class="instagram__text">If you area a person who enjoys photography, then I highly recommend that you check out my Instagram. I’m an avid traveller and I capture the best moments that I would love to cherish with the world</p>
             <a href="#" class="instagram__link">Follow me on IG</a>
+            <div class="instagram__photo"><img src="img/inst.png" alt="instagram"></div>
         </div>
-        <div class="instagram__photo"><img src="img/inst.png" alt="instagram"></div>
+        
     </section>
+    
     <section class="dribble">
         <div class="container">
             <h2 class="title">Dribbble</h2>
@@ -254,13 +256,13 @@
                     <p class="forms__subtitle">Now that you know a lot about me, let me know if you are interested to work with me.</p>
                 </div>
                 <div class="forms__column">
-                    <form action="">
-                        <label for="name">Name</label>
-                        <input id="name" type="text">
-                        <label for="email">Email</label>
-                        <input id="email" type="email">
-                        <label for="message">Message</label>
-                        <textarea rows="10" cols="45" id="message"></textarea>
+                    <form action="#" method="POST" id="start">
+                        <label for="cname">Name</label>
+                        <input name="name" id="cname" type="text">
+                        <label for="cemail">Email</label>
+                        <input name="email" id="cemail" type="email">
+                        <label for="cmessage">Message</label>
+                        <textarea rows="10" cols="45" id="cmessage"></textarea>
                         <button type="submit">Let’s get started</button>
                     </form>
                 </div>
@@ -299,8 +301,9 @@
             <p class="footer__politik">Not Copyright 2020 • Robin Williams. Webflow cloneable</p>
         </div>
     </footer>
-
+    
     <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
 </body>
 </html>
 

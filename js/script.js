@@ -25,4 +25,27 @@ window.addEventListener('DOMContentLoaded', () => {
         });
         
       });
+
+    /*validate*/
+    
+        $('form').validate({
+          rules: {
+            name: "required",
+            email: {
+              required: true,
+              email: true
+            }
+          },
+          messages: {
+            name: "Пожалуйста, введите свое имя",
+            
+            email: {
+              required: "Пожалуйста, введите свою почту",
+              email: "Неправильно введен адрес почты"
+            }
+          }
+        });
+      
+      
+      
 })

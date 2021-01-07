@@ -30,6 +30,8 @@
         width: 100%;
         margin-bottom: 40px;
         color: #fff;
+        padding: 0 10px;
+        font-size: 18px;
     }
     textarea {
         background-color: #181823;
@@ -37,6 +39,8 @@
         width: 100%;
         margin-bottom: 40px;
         color: #fff;
+        padding: 5px 10px;
+        font-size: 18px;
     }
     button {
         background: #5221E6;
@@ -48,5 +52,14 @@
         padding: 24px 0;
         width: 100%;
         border: none;
+        &:hover {
+            cursor: pointer;
+            background-color: #000;
+            outline: 1px solid #5221E6;
+        }
     }
+}
+label.error {
+    color: red;
+    margin-top: -31px;
 }
