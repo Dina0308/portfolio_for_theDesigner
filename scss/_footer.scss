@@ -17,12 +17,18 @@ footer {
         list-style-type: none;
         margin-right: 168px;
         li {
-            font-weight: normal;
-            font-size: 16px;
-            line-height: 150%;
-            color: #FFFFFF;
+            
             margin: 0 0 24px;
-
+            a {
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 150%;
+                color: #FFFFFF;
+                text-decoration: none;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
         }
     }
     &__soc {
@@ -30,6 +36,7 @@ footer {
         margin-top: 32px;
         span {
             margin-right: 16px;
+            
             &:nth-child(1) {
                 color: #26A7DE;
             }
@@ -38,6 +45,10 @@ footer {
             }
             &:nth-child(3) {
                 color: #26A7DE;
+            }
+            &:hover {
+                color: #FFFFFF;
+                cursor: pointer;
             }
         }
     }
